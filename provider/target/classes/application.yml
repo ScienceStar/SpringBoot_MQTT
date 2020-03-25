@@ -1,0 +1,11 @@
+spring:
+  mqtt:
+    default:
+      topic: topic
+    password: guest
+    client:
+      id: mqttId
+    uri: tcp://47.107.97.120:1883
+    username: guest
+server:
+  port: 8080

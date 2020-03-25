@@ -1,0 +1,12 @@
+spring:
+  mqtt:
+    completionTimeout: 3000
+    default:
+      topic: topic
+    password: guest
+    client:
+      id: mqttId
+    url: tcp://47.107.97.120:1883
+    username: guest
+server:
+  port: 8081
